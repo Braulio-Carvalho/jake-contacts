@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.jake
+testFramework: kotest
+sourceLanguage: kotlin
+buildTool: gradle
+features: [annotation-api, app-name, cassandra, gradle, http-client, kotest, kotlin, kotlin-application, log4j2, nats, netty-server, readme, shade, yaml]

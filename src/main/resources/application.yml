@@ -1,0 +1,23 @@
+micronaut:
+  application:
+    name: watch
+  server:
+    port: 8080
+    cassandra:
+      default:
+        basic:
+          contact-points:
+            - ${HOST:localhost}
+          session-keyspace: ${KEYSPACE:watch-api}
+          load-balancing-policy:
+            local-datacenter: ${DATACENTER:datacenter1}
+cassandra:
+  default:
+    clusterName: '"myCluster"'
+    contactPoint: '"localhost"'
+    port: 9042
+    maxSchemaAgreementWaitSeconds: 20
+    ssl: true
+endpoints:
+  health:
+    enabled: true

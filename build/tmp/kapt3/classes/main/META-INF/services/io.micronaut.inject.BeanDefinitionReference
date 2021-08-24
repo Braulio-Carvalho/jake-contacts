@@ -1,0 +1,4 @@
+com.jake.repository.$WatchRepositoryImpl$Definition$Reference
+com.jake.service.$WatchServiceImpl$Definition$Reference
+com.jake.controller.$WatchController$Definition$Reference
+com.jake.exception.handler.$WatchNotFoundHandler$Definition$Reference

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jake.WatchTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-24T03:07:30" hostname="zup-1012" time="0.16">
+  <properties/>
+  <testcase name="test the server is running" classname="com.jake.WatchTest" time="0.16"/>
+  <system-out><![CDATA[2021-08-24 00:07:29,288 pool-1-thread-1 @coroutine#3 DEBUG Apache Log4j Core 2.14.1 initializing configuration XmlConfiguration[location=/home/zup/repo-artigos/jake-watch-api/build/resources/main/log4j2.xml]
+2021-08-24 00:07:29,295 pool-1-thread-1 @coroutine#3 DEBUG Installed 1 script engine
+2021-08-24 00:07:29,473 pool-1-thread-1 @coroutine#3 DEBUG Oracle Nashorn version: 11.0.11, language: ECMAScript, threading: Not Thread Safe, compile: true, names: [nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript], factory class: jdk.nashorn.api.scripting.NashornScriptEngineFactory
+2021-08-24 00:07:29,474 pool-1-thread-1 @coroutine#3 DEBUG PluginManager 'Core' found 122 plugins
+2021-08-24 00:07:29,474 pool-1-thread-1 @coroutine#3 DEBUG PluginManager 'Level' found 0 plugins
+2021-08-24 00:07:29,476 pool-1-thread-1 @coroutine#3 DEBUG PluginManager 'Lookup' found 16 plugins
+2021-08-24 00:07:29,478 pool-1-thread-1 @coroutine#3 DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2021-08-24 00:07:29,483 pool-1-thread-1 @coroutine#3 DEBUG PluginManager 'TypeConverter' found 26 plugins
+2021-08-24 00:07:29,490 pool-1-thread-1 @coroutine#3 DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(/home/zup/repo-artigos/jake-watch-api/build/resources/main/log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2021-08-24 00:07:29,490 pool-1-thread-1 @coroutine#3 DEBUG PluginManager 'Converter' found 44 plugins
+2021-08-24 00:07:29,491 pool-1-thread-1 @coroutine#3 DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2021-08-24 00:07:29,498 pool-1-thread-1 @coroutine#3 DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="LogToConsole", Configuration(/home/zup/repo-artigos/jake-watch-api/build/resources/main/log4j2.xml), Filter=null, ={})
+2021-08-24 00:07:29,500 pool-1-thread-1 @coroutine#3 DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2021-08-24 00:07:29,500 pool-1-thread-1 @coroutine#3 DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2021-08-24 00:07:29,501 pool-1-thread-1 @coroutine#3 DEBUG createAppenders(={LogToConsole})
+2021-08-24 00:07:29,501 pool-1-thread-1 @coroutine#3 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2021-08-24 00:07:29,504 pool-1-thread-1 @coroutine#3 DEBUG createAppenderRef(ref="LogToConsole", level="null", Filter=null)
+2021-08-24 00:07:29,504 pool-1-thread-1 @coroutine#3 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2021-08-24 00:07:29,506 pool-1-thread-1 @coroutine#3 DEBUG createLogger(additivity="false", level="DEBUG", name="com.jake", includeLocation="null", ={LogToConsole}, ={}, Configuration(/home/zup/repo-artigos/jake-watch-api/build/resources/main/log4j2.xml), Filter=null)
+2021-08-24 00:07:29,507 pool-1-thread-1 @coroutine#3 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2021-08-24 00:07:29,508 pool-1-thread-1 @coroutine#3 DEBUG createAppenderRef(ref="LogToConsole", level="null", Filter=null)
+2021-08-24 00:07:29,508 pool-1-thread-1 @coroutine#3 DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2021-08-24 00:07:29,509 pool-1-thread-1 @coroutine#3 DEBUG createLogger(additivity="null", level="ERROR", includeLocation="null", ={LogToConsole}, ={}, Configuration(/home/zup/repo-artigos/jake-watch-api/build/resources/main/log4j2.xml), Filter=null)
+2021-08-24 00:07:29,510 pool-1-thread-1 @coroutine#3 DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2021-08-24 00:07:29,510 pool-1-thread-1 @coroutine#3 DEBUG createLoggers(={com.jake, root})
+2021-08-24 00:07:29,511 pool-1-thread-1 @coroutine#3 DEBUG Configuration XmlConfiguration[location=/home/zup/repo-artigos/jake-watch-api/build/resources/main/log4j2.xml] initialized
+2021-08-24 00:07:29,512 pool-1-thread-1 @coroutine#3 DEBUG Starting configuration XmlConfiguration[location=/home/zup/repo-artigos/jake-watch-api/build/resources/main/log4j2.xml]
+2021-08-24 00:07:29,512 pool-1-thread-1 @coroutine#3 DEBUG Started configuration XmlConfiguration[location=/home/zup/repo-artigos/jake-watch-api/build/resources/main/log4j2.xml] OK.
+2021-08-24 00:07:29,513 pool-1-thread-1 @coroutine#3 DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2021-08-24 00:07:29,513 pool-1-thread-1 @coroutine#3 DEBUG OutputStream closed
+2021-08-24 00:07:29,514 pool-1-thread-1 @coroutine#3 DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2021-08-24 00:07:29,514 pool-1-thread-1 @coroutine#3 DEBUG Appender DefaultConsole-1 stopped with status true
+2021-08-24 00:07:29,514 pool-1-thread-1 @coroutine#3 DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@62d3a333 OK
+2021-08-24 00:07:29,553 pool-1-thread-1 @coroutine#3 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057
+2021-08-24 00:07:29,555 pool-1-thread-1 @coroutine#3 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=StatusLogger
+2021-08-24 00:07:29,556 pool-1-thread-1 @coroutine#3 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=ContextSelector
+2021-08-24 00:07:29,557 pool-1-thread-1 @coroutine#3 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=Loggers,name=
+2021-08-24 00:07:29,557 pool-1-thread-1 @coroutine#3 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=Loggers,name=com.jake
+2021-08-24 00:07:29,558 pool-1-thread-1 @coroutine#3 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=Appenders,name=LogToConsole
+2021-08-24 00:07:29,559 pool-1-thread-1 @coroutine#3 DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+2021-08-24 00:07:29,560 pool-1-thread-1 @coroutine#3 DEBUG Reconfiguration complete for context[name=55054057] at URI /home/zup/repo-artigos/jake-watch-api/build/resources/main/log4j2.xml (org.apache.logging.log4j.core.LoggerContext@3a2d5838) with optional ClassLoader: null
+2021-08-24 00:07:29,560 pool-1-thread-1 @coroutine#3 DEBUG Shutdown hook enabled. Registering a new one.
+2021-08-24 00:07:29,561 pool-1-thread-1 @coroutine#3 DEBUG LoggerContext[name=55054057, org.apache.logging.log4j.core.LoggerContext@3a2d5838] started OK.
+]]></system-out>
+  <system-err><![CDATA[Warning: Nashorn engine is planned to be removed from a future JDK release
+]]></system-err>
+</testsuite>
