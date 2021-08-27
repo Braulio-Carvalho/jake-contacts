@@ -2,6 +2,8 @@ micronaut:
   application:
     name: watch
   server:
+    cors:
+      enabled: true
     port: 8080
     cassandra:
       default:
